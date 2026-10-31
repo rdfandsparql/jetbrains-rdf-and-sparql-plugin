@@ -14,12 +14,12 @@ PyCharm, WebStorm, DataGrip, GoLand, Rider, CLion, RustRover, and more).
 
 ## 🚀 How to Participate
 
-### 1. 👍 Vote on the Roadmap
+### 1. 👍 Vote on the Open Issues
 
 Want to influence what we build next? Browse our
-**[Open Roadmap Issues](https://github.com/rdfandsparql/jetbrains-rdf-and-sparql-plugin/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap)**
+**[Open Issues](https://github.com/rdfandsparql/jetbrains-rdf-and-sparql-plugin/issues?q=is%3Aissue+is%3Aopen)**
 and react with a **👍 (`+1`)** on the top description of any feature you need in your daily workflow. You can also leave
-a comment describing your specific triplestore, ontology setup, or file scale.
+a comment describing your specific setup.
 
 ### 2. 💡 Request a Feature
 
