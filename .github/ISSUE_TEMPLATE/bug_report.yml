@@ -1,0 +1,62 @@
+name: 🐛 Bug Report
+description: Report a parsing error, completion issue, SPARQL endpoint problem, or unexpected IDE behavior.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue!
+        * **Tip:** If the IDE threw an unhandled exception notification, the fastest way to send us the stack trace is via the **[1-Click Error Reporter inside the IDE](https://rdfandsparql.com/docs/reporting-issues#error-reporting-in-ide)**.
+        * **Confidential Data:** Never paste private credentials or proprietary company data here. For private support, email **support@rdfandsparql.com**.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug and what you expected to happen instead.
+      placeholder: "When editing a Turtle (.ttl) file with RDF 1.2 annotation syntax `{| ... |}`, the parser highlights..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproducer
+    attributes:
+      label: Minimal Reproducible Example / Steps to Reproduce
+      description: Please provide a small RDF/SPARQL/ShEx snippet or step-by-step actions to reproduce the problem.
+      placeholder: |
+        ```turtle
+        @prefix ex: <http://example.org/> .
+        ex:s ex:p ex:o {| ex:source ex:doc1 |} .
+        ```
+    validations:
+      required: false
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected Area / Format
+      options:
+        - Turtle (.ttl) / TriG (.trig)
+        - SPARQL (.sparql, .rq, .ru)
+        - N-Triples (.nt) / N-Quads (.nq)
+        - JSON-LD (.jsonld)
+        - ShExC (.shex)
+        - SHACL Validation
+        - SPARQL Endpoint Execution / Console
+        - File-Based SPARQL Endpoint
+        - Ontology Indexing / Completion / Hover Docs
+        - Smart Ctrl+V (IRI Paste Completion)
+        - RDF Format Conversion
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: IDE & Plugin Version
+      description: "e.g., IntelliJ IDEA 2026.2.1 (Ultimate), RDF & SPARQL Plugin v2026.2.1, macOS / Linux / Windows"
+      placeholder: "PyCharm 2026.2, Plugin v2026.2.1, Ubuntu 24.04"
+    validations:
+      required: true

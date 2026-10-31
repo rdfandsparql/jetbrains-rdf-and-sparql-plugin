@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Private & Enterprise Support (Email)
+    url: mailto:support@rdfandsparql.com
+    about: Need to share proprietary ontologies, private SPARQL endpoint logs, or licensing questions? Email support@rdfandsparql.com directly.
+  - name: ⚡ 1-Click IDE Exception Reporting Guide
+    url: https://rdfandsparql.com/docs/reporting-issues#error-reporting-in-ide
+    about: Learn how to submit unhandled IDE exceptions and stack traces with one click directly from your JetBrains IDE.
+  - name: 📖 Plugin Documentation & Quick Start
+    url: https://rdfandsparql.com/docs
+    about: Read the official guides on SPARQL Endpoints, File-Based Querying, Ontology Indexing, and SHACL Validation.
