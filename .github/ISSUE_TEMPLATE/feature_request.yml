@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Have an idea to make working with RDF, SPARQL, SHACL, or ShEx faster in JetBrains IDEs? Let us know below!
-        *(Before opening a new request, check our **[Open Roadmap Issues](https://github.com/rdfandsparql/jetbrains-rdf-and-sparql-plugin/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap)** — if your idea is already listed, give it a 👍 reaction and add your use case in the comments!)*
+        *(Before opening a new request, check our **[Open Issues](https://github.com/rdfandsparql/jetbrains-rdf-and-sparql-plugin/issues?q=is%3Aissue+is%3Aopen)** — if your idea is already listed, give it a 👍 reaction and add your use case in the comments!)*
 
   - type: textarea
     id: problem
